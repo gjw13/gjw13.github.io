@@ -1,0 +1,294 @@
+p { 
+    /*color: red; */
+    color: white;
+    text-align: left;
+}
+
+#p01 {
+    text-align: left;
+    color: black;
+}
+#p02 {
+    text-align: left;
+    color: white;
+}
+
+nav a:hover, 
+nav a:active {
+	color: black;
+	text-decoration: none;
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+}
+
+
+nav {
+	height: 50px;
+  	flex: 100%;
+  	margin: 0px;
+  	padding: 0px;
+  	display: block;
+  	background-color: #6495ED;
+  	border-style: solid;
+  	border-color: black;
+  	border-width: 1px;
+}
+
+nav ul {
+	margin: 0;
+    padding: 0;
+	list-style-type: none;
+	flex: 2;
+	display: flex;
+}
+
+nav li {
+	display: flex;
+	text-align: center;
+	flex: 2;
+	color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+nav a, nav span {
+	display: inline-block;
+  	/*height: 3rem;*/
+  	/*line-height: 1.7;*/
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	color: white;
+}
+
+nav li::nth-child(2) {
+    border-left: none;
+    background-color: blue;
+}
+
+nav ul li span::nth-child(2) {
+    border-left: none;
+}
+
+nav span {
+	background-color: grey;
+	height: 50px;
+	width: 100%;
+}
+
+nav ul li img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul li a {
+    height: 50px;
+    width: 100%;
+}
+
+.photos {
+    display: inline-block;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
+    border-style: groove;
+    border-color: white;
+    border-width: 7px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    
+    
+    border-style: groove;
+    border-color: #041e42;
+    border-width: 7px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    font-size: 50px;
+}
+
+.navbar ul li i {
+    height: 30px;
+    width: 50px;
+}
+
+/*.social-icons ul li a img {
+    height: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding: -20px;
+    color: red;
+}*/
+
+.social-icons {
+    font-size: 50px;
+    text-decoration: none;
+    text-align: left;
+    padding: -20px;
+    color: red;
+}
+
+.social-icons ul {
+    margin-top: 36px;
+    margin-left: -35px;
+}
+
+.social-icons ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.social-icons li i:hover {
+    border-bottom: 2.5px solid;
+    padding-bottom: 3px;
+    /*margin: 1px;*/
+    /*padding: 1px;*/
+    border-radius: 2px;
+    transition: left;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-github,
+.fa-instagram,
+.fa-linkedin,
+.fa-snapchat,
+.fa-book,
+.fa-file-pdf-o {
+    color: #63666a;
+}
+
+.fa-book:hover {
+    color: #D2B48C;
+}
+
+.fa-home {
+    color: white;
+}
+
+.fa-home:hover {
+    color: black;
+}
+
+.fa-file-code-o:hover {
+    color: black;
+}
+
+.fa-file-pdf-o:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+    border-color: #4676dc;
+}
+
+.fa-linkedin:hover {
+    color: #4875B4;
+
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-instagram:hover {
+    color: #e95950;
+}
+
+.fa-snapchat:hover {
+    color: #fffb00;
+}
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    /*width: 300px;*/
+	/*overflow: auto;*/
+	/*background-color: white;*/
+}
+
+body {
+    background-image: url("https://gregwills.georgetown.domains/georgetown-background2.jpg");
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+  
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+    background-attachment: fixed;
+  
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+  
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+}
+
+body iframe {
+    float: left;
+    flex: 1;
+	margin-left: 10px;
+	padding: 0%;
+	
+	border-style: groove;
+    border-color: white;
+    border-width: 7px;
+}
+
+#footer {
+    text-align: center;
+}
+
+footer {
+  	margin-top: 10px;
+  	display: block;
+  	background-color: #6495ED;
+  	color: white;
+  	text-align: center;
+ }
+ 
+h1 {
+  /*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  padding: -20px -10px;
+  font-weight: 300;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  color: #041e42;
+  margin-bottom: -10px;
+  margin-top: 0px;
+  border-bottom: 2.5px solid;
+  /*border-right: 2.5px solid;*/
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+}
