@@ -1,7 +1,58 @@
-p { 
-    /*color: red; */
-    color: white;
+.description h1 {
+  /*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  padding: -20px -10px;
+  font-weight: 300;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  color: #041e42;
+  margin-bottom: -10px;
+  margin-top: 0px;
+  border-bottom: 2.5px solid;
+  /*border-right: 2.5px solid;*/
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+}
+
+.container {
+    height: 125px;
+    width: 75%;
+    background-color: none;
+    margin-bottom:-20px;
+}
+
+.description {
+    /* height: 20%; */
+    width: 37%;
+    background-color: none;
+    float: left;
+}
+
+.headshot {
+    margin-left: 37%;
+}
+
+.description p { 
+    /* margin-right: 26%; */
+    color: black;
+    /* width: 100%; */
+    font-size: 18px;
     text-align: left;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.headshot img {
+    /* display: block; */
+    margin-right: auto;
+    height: 160%;
+    width: auto;
+    border: 1px solid #021a40;
+    padding: 1px;
 }
 
 #p01 {
@@ -140,6 +191,8 @@ ul {
     text-align: left;
     padding: -20px;
     color: red;
+    background-color: none;
+    width: 20%;
 }
 
 .social-icons ul {
@@ -169,7 +222,8 @@ ul {
 .fa-snapchat,
 .fa-book,
 .fa-file-pdf-o {
-    color: #63666a;
+    /* color: #63666a; */
+    color: #041e42;
 }
 
 .fa-book:hover {
@@ -275,20 +329,3 @@ footer {
   	text-align: center;
  }
  
-h1 {
-  /*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;*/
-  font-family: "Playfair Display", serif;
-  font-size: 70px;
-  padding: -20px -10px;
-  font-weight: 300;
-  text-align: left;
-  text-rendering: optimizeLegibility;
-  color: #041e42;
-  margin-bottom: -10px;
-  margin-top: 0px;
-  border-bottom: 2.5px solid;
-  /*border-right: 2.5px solid;*/
-  border-radius: 2px;
-  position: relative;
-  display: inline-block;
-}
