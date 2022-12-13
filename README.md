@@ -1,3 +1,3 @@
-# gjw13.github.io
+# Summary
 
-This is the personal website for Gregory Jeffrey Wills
+This repository houses the code for [gjw13.github.io](https://gjw13.github.io), my (simple) personal website.
